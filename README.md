@@ -1,2 +1,4 @@
-# 24beers
-24 Beers e-commerce
+Commerce
+========
+
+# A project to test principles of a modern ecommerce website
