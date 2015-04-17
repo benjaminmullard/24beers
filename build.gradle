@@ -1,5 +1,15 @@
 apply plugin: 'java'
 
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+version = '0.1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Commerce',
+                   'Implementation-Version': version
+    }
+}
+
 repositories {
     mavenCentral()
 }
